@@ -31,8 +31,6 @@ package com.example.myproject.interfaces;
 
 Para indicar que uma classe pertence a um determinado pacote, a primeira linha de código deve indicar isso da seguinte maneira:
 
-`
-package nomedopacote;
+`package nomedopacote;`
 
-`
 O nome do pacote será o que diferencia duas classes de nomes iguais vindas de pacotes diferentes, não havendo conflitos entre elas.
