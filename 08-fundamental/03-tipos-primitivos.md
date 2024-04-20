@@ -7,7 +7,7 @@ Nós temos 8 tipos primitivos em Java, os tipos primitivos indicam o **tipo da v
 
 São declarados em letra minúscula:
 
-`
+```java
 int idade = 26;
 
-`
+```

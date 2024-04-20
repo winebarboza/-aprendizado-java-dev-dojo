@@ -16,10 +16,12 @@ br.devdojo.com.my.project.models;
 3. Evitar palavras reservadas
 Evitar usar palavras reservadas da linguagem nos nomes dos pacotes.
 
+- Evite
 `
 //evitar
  package com.example.myproject.interface;
 `
+- Prefira
 `
 //preferir
 package com.example.myproject.interfaces;
