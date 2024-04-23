@@ -11,3 +11,19 @@ São declarados em letra minúscula:
 int idade = 26;
 
 ```
+## Convenção de nomes de variáveis
+
+- Na criação de variáveis a primeira letra do nome da variávei deverá ser minúscula e as seguintes palavras devem começar com letra maiúscula.
+
+ Exemplo:
+
+```java
+public class Aula02TiposPrimitivos{
+    public static void main(String[]args){
+       int idadeDoUsuario = 27; 
+    }
+}
+```
+- O nome não deve conter espaços em brancos.
+- O nome não deve começar com caracteres especiais.
+
