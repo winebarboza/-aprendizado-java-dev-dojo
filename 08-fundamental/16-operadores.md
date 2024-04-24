@@ -49,3 +49,8 @@ Os operadores relacionais resultam em booleano.
 |  maior igual |     >=    |
 |    igual     |     ==    |
 |  diferente   |     !=    |
+
+```java
+boolean isDezMaiorQueVinte = 10 > 20; //false
+
+```
