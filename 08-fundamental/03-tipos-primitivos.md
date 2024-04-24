@@ -27,3 +27,18 @@ public class Aula02TiposPrimitivos{
 - O nome não deve conter espaços em brancos.
 - O nome não deve começar com caracteres especiais.
 
+## Casting
+
+Na linguagem Java nós podemos atribuit um novo tipo para uma variável, isso é chamado de casting.
+
+Exemplo:
+
+```java
+public class Aula02TiposPrimitivos{
+    public static void main(String[]args){
+       int idadeDoUsuario = (float) 27; 
+    }
+}
+```
+>Aqui nós alteramos um inteiro para o float.
+
