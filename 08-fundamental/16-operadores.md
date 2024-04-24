@@ -54,3 +54,24 @@ Os operadores relacionais resultam em booleano.
 boolean isDezMaiorQueVinte = 10 > 20; //false
 
 ```
+## Operadores lógicos
+
+Os operadores lógicos do Java são usados para criar expressões lógicas (verdadeiras ou falsas). Os operadores lógicos mais comuns são:
+
+- "&&" 
+(AND) retorna verdadeiro se ambas as expressões forem verdadeiras. 
+
+- "||"
+(OU) retorna verdadeiro se pelo menos uma das expressões for verdadeira.
+
+- "!" 
+(Não lógico): inverte o valor lógico da expressão. Exemplo: !(x < 5) retornaria verdadeiro se x não fosse menor que 5.
+
+- "&"
+(E lógico curto-circuitado): igual a &&, mas não avalia a segunda expressão se a primeira já for falsa.
+
+- "|" 
+(OU lógico curto-circuitado): igual a ||, mas não avalia a segunda expressão se a primeira já for verdadeira. Exemplo: (x < 5 | y/x > 2) se x for menor que cinco, y/x não será avaliado evitando um erro de divisão por zero.
+
+- "^" 
+(OU exclusivo): retorna verdadeiro se apenas uma das expressões for verdadeira. Exemplo: (x < 5 ^ y < 5) retornaria verdadeiro se x fosse menor que 5 ou y fosse menor que 5, mas não ambos.
