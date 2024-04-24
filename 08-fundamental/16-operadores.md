@@ -23,20 +23,23 @@ public static void main(String[]args){
 ```java
 System.out.println("Maria possui "+macasVerdes+" maçãs verdes e João possui "+macasVermelhas+" maçãs vermelhas.");
 ```
-## Relacionais
 
 Operador de resto é representado pelo sinal de "%".
 ```java
 int resto = 4 % 2; //o resultado é zero, pois é o resto da divisão 4/2.
 
 ```
-Sinais de menor que e maior que <>.
+## Relacionais
 
-Sinais de menor igual e maior igual <= >=.
+Os operadores relacionais resultam em booleano.
 
-Sinal de igual ==.
+- Sinais de menor que e maior que <>.
 
-Sinal de diferente !=.
+- Sinais de menor igual e maior igual <= >=.
+
+- Sinal de igual ==.
+
+- Sinal de diferente !=.
 
 | Significado  | Símbolo   | 
 |--------------|-----------|
