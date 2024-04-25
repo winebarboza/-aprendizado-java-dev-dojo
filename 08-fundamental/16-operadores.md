@@ -75,3 +75,26 @@ Os operadores lógicos do Java são usados para criar expressões lógicas (verd
 
 - "^" 
 (OU exclusivo): retorna verdadeiro se apenas uma das expressões for verdadeira. Exemplo: (x < 5 ^ y < 5) retornaria verdadeiro se x fosse menor que 5 ou y fosse menor que 5, mas não ambos.
+
+## Atribuição
+
+- **Igual ( = )**
+Utilizado para atribuir valores para as variáveis.
+
+- **Decrementa (-=)**
+Utilizado para decrementar valor.
+Exemplo:
+
+```java
+int bonus = 2000;
+bonus -= 1000; //foi subtraído 1000 de 2000 e agora o bonus é igual à 1000.
+```
+
+- **Incrementa (+=)**
+Utilizado para incrementar valor.
+Exemplo:
+
+```java
+int bonus = 2000;
+bonus += 1000; //foi somado 1000 à 2000 e agora o bonus é igual à 3000.
+```
