@@ -41,3 +41,26 @@ System.out.println(nomes[0]); //José
 
 - Para String o valor é: null.
 
+## Arrays - Dinâmicos
+
+Arrays possuem tamanhos fixos e não podem ser aumentados ou diminuídos uma vez declarados.
+
+## Foreach
+
+Normalmente, usamos a estrutura for-each para que o laço for percorra todo o array, — essa é uma das suas principais funcionalidades, ele basicamente funciona da mesma forma que o laço for.
+
+A sintaxe do Java forEach loop consiste na identificação do tipo de estrutura dos dados utilizados, seguidos por dois pontos (:) — posteriormente, usamos a identificação do array ou da coleção que queremos utilizar, assim:
+```java
+for(<Tipo> <identificação> : <array ou coleção>) {
+        <comando>
+}
+```
+
+*Sintaxe:*
+```java
+int[] numero ={1,2,3,4};
+
+for(int num: numeros){
+    System.out.println(num)
+}
+```
